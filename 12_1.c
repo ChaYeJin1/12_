@@ -10,11 +10,10 @@ int main(void) {
 	
 	while(src[i] != '\0')
 	{
-		dst[i]=src[i];
 		i++;
 	}
-	dst[i]='\0';
-	printf("dst : %s\n", dst);
+	
+	printf("%s (%i)\n", src, i);
 	
 	return 0;
 }
